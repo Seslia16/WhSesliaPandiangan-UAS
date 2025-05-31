@@ -1,4 +1,4 @@
-# App WhAzlansaja
+# App WhSesliaPandiangan
 UAS Mobile 2 bersama azlansaja
 
 ## Screenshots

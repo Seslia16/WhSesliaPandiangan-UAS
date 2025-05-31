@@ -1,27 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:whazlansaja/screen/beranda_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(MyApp());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'WhSesliaPandiangan',
       debugShowCheckedModeBanner: false,
-      title: 'UAS Mobile 2 bersama azlansaja',
-      theme: ThemeData(
-        colorSchemeSeed: Colors.greenAccent,
-        brightness: Brightness.dark,
-        textTheme: GoogleFonts.robotoTextTheme(ThemeData.dark().textTheme),
-        // brightness: Brightness.light,
-        // textTheme: GoogleFonts.robotoTextTheme(),
-      ),
-      home: const BerandaScreen(),
+      home: HomeScreen(),
     );
   }
 }

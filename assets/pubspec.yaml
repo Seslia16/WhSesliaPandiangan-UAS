@@ -1,0 +1,15 @@
+name: whazlansaja
+description: Chat dosen app
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/dosen_chat.json
